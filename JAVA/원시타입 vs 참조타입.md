@@ -4,23 +4,31 @@
 
 <br>
 
-**:heavy_check_mark: 원시타입**
+**:heavy_check_mark: 원시타입(Primitive Type)**
 
 - 정수, 실수, 문자, 놀리 리터럴 등 **실제 데이터 값을 저장하는 타입**
 
 - 메모리 공간의 실제 데이터 값이 저장되어 있다
 
-- **스택 영역에 존재**
+- `스택 영역`에 존재
+
+- 기본값이 존재하기 때문에 NULL 존재 X
+
+  - 기본형 타입에 null을 넣고 싶다면 래퍼 클래스 활용
 
 - 논리형(boolean), 문자형(char), 정수형(byte, short, long), 실수형(float, double)  
 
   <br>
 
-**:heavy_check_mark:참조타입**
+**:heavy_check_mark:참조타입(Reference Type)**
 
-- 기본 타입을 제외한 타입으로, **객체의 주소를 저장하는 타입**
+- 기본 타입을 제외한 타입으로, **객체의 `주소를 저장`하는 타입**
 
-- 문자열, 배열, 열거형, 상수, 클래스, 인터페이스 ....
+- NULL 개념 존재
+
+- 값이 저장되어 있는 곳의 **주소값을 저장하는 공간**으로, 메모리 중 `Heap`에 저장됨
+
+- 문자열, 배열, 열거형(enum), 상수, 클래스, 인터페이스 ....
 
 - 자바에서 <span style="background-color:#fff5b1">실제 객체는 JVM의 힙 영역에</span> 저장, <span style="background-color:#1ff2">참조 타입 변수는 실제 객체의 `주소`를 JVM 스택 영역에</span> 저장
 
@@ -75,5 +83,11 @@
 
    
 
+<br>
 
+-------------------
+
+https://steady-coding.tistory.com/606
+
+https://devpad.tistory.com/57
 
