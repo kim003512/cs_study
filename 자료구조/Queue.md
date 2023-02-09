@@ -2,7 +2,9 @@
 
 - Collection 프레임워크의 일부이며 java.util 패키지에 소속
 
-- 먼저 들어온 데이터가 먼저 나가는 형식 = `FIFO`
+- 먼저 들어온 데이터가 먼저 나가는 형식 = `FIFO` = `LILO`
+
+- 스택과 꺼내는 순서가 반대
 
   ![img](https://blog.kakaocdn.net/dn/4xNC4/btq5pEMF0sO/Hz54KOz8oU8QwR8uCqyIMK/img.png)
 
@@ -120,6 +122,14 @@
          priorityQueue.clear();
      ````
 
+     
+
+<br>
+
+- **큐가 많이 사용되는 곳**
+  - 멀티 태스킹을 위한 `프로세스 스케쥴링 방식`을 구현하기 위해 많이 사용됨
+  - cf) 큐의 경우에는 장단점보다는 (특별히 언급되는 장단점 없음), 큐의 활용 예로 프로세스 스케쥴링 방식을 함께 이해하는것이 좋음
+
 <br>
 
 <br>
@@ -130,5 +140,3 @@
 
 - 프로그래머스
   - [명예의 전당(1)](https://school.programmers.co.kr/learn/courses/30/lessons/138477/solution_groups?language=java)
-     
-
